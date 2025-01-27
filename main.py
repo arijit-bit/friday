@@ -146,7 +146,7 @@ def comandprocess (c):
                     try:
                         client = DuckGPT(model="gpt-4o-mini")
                         # models = client.Models()
-                        text = client.Chat(f"response like a human in chat, read the chat history and response like a human , replyes will be short and to the piont, here your name is sangita and another person is your friend, you can communicate with him in hindi,english and also in bengali as per the sender's language. output should be reply of the next chat, don't include time, date and : at the begining of the output, here is the chat history {copied_content}", [])
+                        text = client.Chat(f"response like a human in chat, read the chat history and response like a human , replyes will be short and to the piont, here your name is arijit and another person is your friend, you can communicate with him in hindi,english and also in bengali as per the sender's language. output should be reply of the next chat, don't include time, date and : at the begining of the output, here is the chat history {copied_content}", [])
                         print(text)
                         
                         pyautogui.write(text)
