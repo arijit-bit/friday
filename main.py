@@ -68,7 +68,8 @@ def comandprocess (c):
                 print("No articles found.")
         
             print(f"Failed to fetch news. Status code: {r.status_code}")
-
+    
+    #you have to set manually the points
     elif "activate chatbot" == c.lower() or "activate chat bot" == c.lower() or "activate chat box" == c.lower() :
         print("Enter sender's name : ")
         speak("Enter sender's name : ")
