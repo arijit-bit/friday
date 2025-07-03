@@ -3,7 +3,7 @@ import webbrowser
 import pyttsx3
 import musiclibrary
 import requests
-from duckgpt import DuckGPT
+from duckgpt import DuckGPT # Now this dose't work , use generative api  
 import pyautogui
 import time
 import pyperclip
