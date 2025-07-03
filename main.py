@@ -9,7 +9,7 @@ import time
 import pyperclip
 
 engine = pyttsx3.init()
-newsapi = "" # Enter your news api here 
+newsapi = "" # Enter your news api here  
 
 def speak (text):
     voices = engine.getProperty('voices')
